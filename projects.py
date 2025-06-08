@@ -135,3 +135,5 @@ while True:
 
 print("Goodbye 👋👋")
 """
+
+# Text Analyzer

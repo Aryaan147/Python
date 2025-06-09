@@ -302,14 +302,16 @@ for letter in cipher_text:
 print(f"Decrypted text: {plain_text}")
 """
 
-def get_sprinkles(func):
-  def wrapper():
-    print("Would you liked sprinkles")
-    func('Vanilla')
-  return wrapper
+# Alarn Clock
+import datetime
+import time
 
-@get_sprinkles
-def ice_cream(flavor):
-  print(f"Here's your {flavor} ice cream")
-
-ice_cream()
+alarm = input("Enter the time for alarm (HH:MM:SS): ")
+run = True
+while run:
+    current_time = datetime.datetime.now().strftime("%H:%M:%S")
+    print(current_time)
+    time.sleep(1)
+    if current_time == alarm:
+        print("🔔🔔🔔🔔")
+        run = False

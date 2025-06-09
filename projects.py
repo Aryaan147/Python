@@ -36,7 +36,7 @@ while run:
 
 import random
 
-#Number Guessing Game
+# Number Guessing Game
 """
 numb = random.randint(1,99)
 print("-------Welcome to Number Guessing Game-------")

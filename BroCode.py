@@ -68,6 +68,7 @@ elif unit == "F":
 
 elif unit == "K":
   unit = input("what do you wanna convert into(C or F): ")
+
   
   if unit not in ["C","F"]:
     print(f"{unit} is Invalid")
@@ -275,9 +276,9 @@ while run:
 """
 
 #project 13: Encryption program
+"""
 import random
 import string
-"""
 chars = " " + string.punctuation + string.digits + string.ascii_letters
 chars = list(chars)
 key = chars.copy()
@@ -303,6 +304,7 @@ print(f"Decrypted text: {plain_text}")
 """
 
 # Alarn Clock
+"""
 import datetime
 import time
 
@@ -315,3 +317,4 @@ while run:
     if current_time == alarm:
         print("🔔🔔🔔🔔")
         run = False
+"""
